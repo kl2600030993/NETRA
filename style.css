@@ -1,49 +1,52 @@
- /* =====Global Reset===== */
- *{
+/* =====Global Reset======= */
+
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
- }
- html{
+}
+
+html{
     scroll-behavior: smooth;
- }
- body{
-    background-color: grey;
-    color: floralwhite;
+}
+
+body{
+    background-color: rgba(48, 2, 2, 0.471);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
- }
- button{
-    background:black;
-    border: 0;
-    font-family:inherit;
-    color: rgb(11, 12, 65);
+}
+
+button{
+    font-family: inherit;
+     background: #287ee8;
+    color: rgb(248, 244, 244);
     font-weight: bold;
+    border: 0;
     border-radius: 8px;
     padding: 10px 20px;
     cursor: pointer;
-    
-
- }
- .topbar{
-   min-height: 82px;
-   display: flex;
-   align-items:center;
-   justify-content: space-between;
-   gap: 20px;
-   padding: 15px 4%;
-   background:black;
-   border-bottom: 1px solid yellow;
+}
 
 
 
- }
- .brand{
-   display:flex;
-   gap: 12px;
-   align-items: center;
- }
- .brand-logo{
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding: 15px 4%;
+    background: rgb(2, 48, 76);
+    border-bottom: 1px solid rgb(246, 238, 5);
+}
+
+.brand{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+.brand-logo{
     background: #287ee8;
     border-radius: 10px;
     padding: 12px 16px;
@@ -91,7 +94,7 @@ nav a:hover{
     border-radius: 50%;
 }
 #clock{
-    color: white;
+    color:wheat;
     font-family: monospace;
     margin-left: 10px;
 }
